@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos - Cidade das Carretas</title>
+    <style>
+        body {
+            background-color: #D8BFD8; /* Roxo claro */
+            color: #000000; /* Preto */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            padding: 20px;
+            background: linear-gradient(135deg, #E6E6FA, #D8BFD8); /* Gradiente suave do roxo claro ao roxo mais claro */
+            text-align: center;
+            border-bottom: 5px solid #4B0082; /* Linha roxa escura na base do banner */
+        }
+        header .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Tornar a imagem redonda */
+            margin-right: 20px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #4B0082; /* Cor roxa escura para o título */
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #E6E6FA; /* Roxo claro */
+            border-radius: 5px;
+        }
+        nav a.active {
+            background-color: #4B0082; /* Roxo escuro */
+            color: white;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFFFFF; /* Fundo branco para o conteúdo */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px;
+            font-size: 20px;
+            color: #FFFFFF;
+            background-color: #4B0082; /* Roxo escuro */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #6A0D91; /* Roxo mais escuro ao passar o mouse */
+        }
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="imagens/logo.png" alt="Cidade das Carretas" />
+            <h1>Cidade das Carretas</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="jogos.html" class="active">Jogos</a>
+        <a href="redes-sociais.html">Redes Sociais</a>
+    </nav>
+
+    <section>
+        <h2>Jogue Agora!</h2>
+        <p>Entre no jogo e divirta-se com as diversas aventuras que preparamos para você.</p>
+        <a href="https://www.roblox.com/pt/games/78192596375539/Cidade-Das-Carreta-Atualiza-o" class="button">Ir para o Jogo</a>
+        <div>
+            <h3>Fotos do Jogo</h3>
+            <img src="imagensjogo/foto1.png" alt="Foto 1" style="width: 300px; margin: 10px;">
+            <img src="imagensjogo/foto2.png" alt="Foto 2" style="width: 300px; margin: 10px;">
+            <img src="imagensjogo/foto3.png" alt="Foto 3" style="width: 300px; margin: 10px;">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cidade das Carretas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
